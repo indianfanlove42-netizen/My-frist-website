@@ -22,3 +22,6 @@ MOBdata = st.text_input("Enter your Moth of Birth (MOB)")
 button=st.button("Done")
 if button :
     st.markdown("Welcome to Suryansh Gaming shop")
+    st.markdown("You can come and play any game with me.")
+    st.markdown("Just email me on indianfan.love42@gmail.com")
+    st.markdown("And if you liked my website please share to everywere")
