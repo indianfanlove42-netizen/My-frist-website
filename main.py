@@ -27,7 +27,6 @@ if button :
     st.markdown("You can come and play any game with me.")
     st.markdown("Just email me on indianfan.love42@gmail.com")
     st.markdown("And if you liked my website please share to everywere")
-# Reset button logic
 if Reset:
     st.session_state.namedata = ""
     st.session_state.adddata = ""
