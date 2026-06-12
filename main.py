@@ -20,8 +20,20 @@ YOBdata = st.selectbox("Enter your Year of Birth (YOD)",(1900, 1901, 1902, 1903,
                                                          2021, 2022, 2023, 2024, 2025, 2026))
 MOBdata = st.text_input("Enter your Moth of Birth (MOB)")
 button=st.button("Done")
+Reset=st.button("Reset")
+# Done button logic
 if button :
     st.markdown("Welcome to Suryansh Gaming shop")
     st.markdown("You can come and play any game with me.")
     st.markdown("Just email me on indianfan.love42@gmail.com")
     st.markdown("And if you liked my website please share to everywere")
+# Reset button logic
+if Reset:
+    st.session_state.namedata = ""
+    st.session_state.adddata = ""
+    st.session_state.adata = ""
+    st.session_state.edata = ""
+    st.session_state.YOBdata = ""
+    st.session_state.MOBdata = ""
+    st.rerun()
+
